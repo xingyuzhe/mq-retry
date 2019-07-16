@@ -1,0 +1,32 @@
+{
+  "name": "mq-retry",
+  "version": "0.1.0",
+  "description": "rabbitmq retry automatic compensation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingyuzhe/mq-retry.git"
+  },
+  "keywords": [
+    "rabbitmq",
+    "retry",
+    "automatic",
+    "compensation"
+  ],
+  "author": "yuzhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xingyuzhe/mq-retry/issues"
+  },
+  "homepage": "https://github.com/xingyuzhe/mq-retry#readme",
+  "dependencies": {
+    "@types/amqplib": "^0.5.13",
+    "@types/lodash": "^4.14.136",
+    "amqplib": "^0.5.3",
+    "debug": "^4.1.1",
+    "lodash": "^4.17.14"
+  }
+}
